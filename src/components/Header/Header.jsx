@@ -14,7 +14,12 @@ const Header = () => {
         <Typography variant="h5" className={classes.title}>
           Travel Advisor
         </Typography>
-        <Box display="flex">
+        <Box
+          display="flex"
+          justifyContent="space-between"
+          alignItems="center"
+          className={classes.toolbar}
+        >
           <Typography variant="h6" className={classes.title}>
             Explore new places
           </Typography>
